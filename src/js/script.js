@@ -22,10 +22,7 @@ document.addEventListener("DOMContentLoaded", function() {
     document.getElementById("anotherone").addEventListener("click", catfact);
     document.getElementById("copyright").innerHTML = `&copy; ${new Date().getFullYear()} MoonStudio`;
 
-    let visits = localStorage.getItem("visits") || 0;
-    visits++;
-    localStorage.setItem("visits", visits);
-    document.getElementById("visitCount").textContent = visits;
+
 });
 
 
